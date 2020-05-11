@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f2f2f2;
+        }
+        ul {
+            width: 200px;
+            text-align: center;
+            background: #fff;
+            list-style: none;/*设置列表项目样式不使用任何符号*/
+            margin: 50px auto;/*左右居中*/
+        }
+        li {
+            height: 50px;
+            width: 50px;
+            background-color: #aaa;
+            position: relative;
+        }
+        ul li:hover {
+            width: 200px;
+            transition: width 1s ease;/*过渡效果*/
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            width: 150px;
+            line-height: 50px;
+            position: absolute;
+            left: 50px;
+            top: 0;
+        }
+        a:hover {
+            background-color: #fff;
+        }
+        li:nth-child(1){ background:#B3C833 url("./images/icoa1.png") no-repeat 12px center; }
+        li:nth-child(2){ background:#CE5043 url("./images/icoa2.png") no-repeat 12px center; }
+        li:nth-child(3){ background:#FB8521 url("./images/icoa3.png") no-repeat 12px center; }
+        li:nth-child(4){ background:#1AA1E1 url("./images/icoa4.png") no-repeat 12px center; }
+        li:nth-child(5){ background:#5E5CA6 url("./images/icoa5.png") no-repeat 12px center; }
+        li:nth-child(6){ background:#658092 url("./images/icoa6.png") no-repeat 12px center; }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">影视</a></li>
+            <li><a href="#">音乐</a></li>
+            <li><a href="#">图书</a></li>
+            <li><a href="#">记事</a></li>
+            <li><a href="#">设备</a></li>
+        </ul>
+    </div>
+</body>
+</html>
